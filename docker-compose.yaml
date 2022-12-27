@@ -10,5 +10,5 @@ services:
       container_name: mynode2
       build: .
       ports:
-        - 4000:4000
+        - 4000:5000
     
