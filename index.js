@@ -3,8 +3,8 @@ import express from "express"
 
 const app=express()
 
-app.get('/rest1',(req,res)=>{
-    res.send('First Api is Running...')
+app.get('/',(req,res)=>{
+    res.send('Api is Running...')
 })
 
 
