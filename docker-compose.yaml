@@ -6,4 +6,9 @@ services:
       build: .
       ports:
         - 5000:5000
+    c2:
+      container_name: mynode2
+      build: .
+      ports:
+        - 4000:4000
     
